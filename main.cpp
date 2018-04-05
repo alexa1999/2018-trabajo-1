@@ -25,9 +25,11 @@ int main()
 //    int numero;
 //    cout<<"ingrese un numero :";
 //    cin>>numero;
-//    for(int i=1; i<= numero;i++ )
-//        cout<<";"<<i;
-
+//    for(int i=1; i< numero;i++ ){
+//        cout<<i<<";";
+//    }
+//    cout<<numero;
+//    return 0;
 
     //Problem 3. Implemente un programa que solicite el ingreso de 3 n ́umeros e imprima: (i)
     //el menor, (ii) el mayor y (iii) el promedio de dichos n ́umeros.
@@ -103,44 +105,97 @@ int main()
 //    }
     //Problem 5. Implemente un programa que solicite un n ́umero y evalue si dicho n ́umero es
  //primo.
-    int n,x=0;
-    cout<<"ingrese un numero: "<<endl;
-    cin>>n;
-    for(int i=1;i<(n+1);i++){
-        if(n%i==0){
-            x++;
-        }
-    }
-    if(x!=2){
-        cout<<"no es primo";
-    }else
-        cout<<"es primo";
+//    int n,x=0;
+//    cout<<"ingrese un numero: "<<endl;
+//    cin>>n;
+//    for(int i=1;i<(n+1);i++){
+//        if(n%i==0){
+//            x++;
+//        }
+//    }
+//    if(x!=2){
+//        cout<<"no es primo";
+//    }else
+////        cout<<"es primo";
+//Problem 6. Implemente un programa que solicite un n ́umero n e imprima todos los n ́umero
+//primos menores a n.
+//int num;
+//cout<<"ingrese hasta que numero apareceran los primos:"<<endl;
+//cin>>num;
+//for (int j=2;j<=num;j++){
+//    int a=0;
+//    for(int i=1;i<=num;i++)
+//    {
+//        if(j%i==0)
+//        a++;
+//    }
+//    if (a==2){
+//        cout<<j<<endl;
+//    }
+//}
 //Problem 7. Implemente un programa que solicite un n ́umero de cinco d ́ıgitos e imprima
 //los d ́ıgitos separados por un caracter de tabulaci ́on.
 
-    int numero;
-    cout<<" Ingrese un numero de 5 caracteres  :";
-    cin >> numero;
-    int d=numero/10000;
-    cout<<d<<"|";
-    d=numero/1000%10;
-    cout<<d<<"|";
-    d=numero/100%10;
-    cout<<d<<"|";
-    d=numero/10%10;
-    cout<<d<<"|";
-    d=numero%10;
-    cout<<d<<endl;
+//    int numero;
+//    cout<<" Ingrese un numero de 5 caracteres  :";
+//    cin >> numero;
+//    int d=numero/10000;
+//    cout<<d<<"|";
+//    d=numero/1000%10;
+//    cout<<d<<"|";
+//    d=numero/100%10;
+//    cout<<d<<"|";
+//    d=numero/10%10;
+//    cout<<d<<"|";
+//    d=numero%10;
+//    cout<<d<<endl;
+//    Problem 8. Implemente un programa que solicite un n ́umero de cinco d ́ıgitos e indique si
+//se trata de un palindrome. Tome en cuenta que un palindrome cuando se lee de derecha a
+//izquierda es lo mismo que leerlo de izquierda a derecha, 12321 es un palindrome y 12345 no
+//es un palindrome.
+//    int numero;
+//    cout<<" Ingrese un numero de 5 caracteres  :";
+//    cin >> numero;
+//    int d=numero/10000;
+//
+//    int a=numero/1000%10;
+//
+//    int s=numero/100%10;
+//
+//    int f=numero/10%10;
+//
+//    int g=numero%10;
+//
+//    if(d==g && a==f){
+//        cout<<numero<<" es palindrome"<<endl;
+//    }
 //Problem 9. Implemente un programa que evalue si un a ̃no es bisiesto.
-    int anio;
-    cout<<"ingrese un año: "<<endl;
-    cin>>anio;
-    if(anio%4==0){
-        if((anio%100)==0&&(anio%400)==0)
-            cout<<"si es bisiesto"<<endl;
-        else
-            cout<<"no es bisiesto"<<endl;
+//    int anio;
+//    cout<<"ingrese un año: "<<endl;
+//    cin>>anio;
+//    if(anio%4==0){
+//        cout<<"es bisiesto";
+//    else
+//         cout<<"no es bisiesto"<<endl;
+//    }
+//Problem 10. Implemente un programa que solicite un n ́umero n e imprima los n n ́umeros
+//de la serie fibonacci.
+    int x,y=1,z=0,a=0;
+    cout<<"introduzca un numero: "<<endl;
+    cin>>x;
+    for(int i=0;i<=x;i++)
+    {
+        if(i==0 || i==1)
+        {
+            cout<<i<<", ";
+        }
+        else{
+            z=y;
+            y=y+a;
+            cout<<y<<", ";
+            a=z;
+        }
     }
-
     return 0;
+
 }
