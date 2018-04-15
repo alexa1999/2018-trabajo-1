@@ -19,9 +19,9 @@ int main()
 
     cout<<"long double "<<sizeof(long double)<<" bytes"<<endl;
     int potencia = pow(9,2000);
-    short potenc = pow(9,2000);
-    long pot =pow (9,900);
-    long long po=pow(9,900);
+    //short potenc =32,767;
+//    long pot =2,147,483,647 ;
+    long long po= 1.18e4932;
     float y=91084093840923841849/894789;
     double k=potencia /54;
 
@@ -30,10 +30,10 @@ int main()
     //char a[255];
     //a="23451234512345123451234512345123451234512345123451234512345123451234512345123451234512345123451234512345123451234512345123451234512345123451234512345123451234512345123451234512345123451234512345123451234512345123451234512345123451234512345123451234512345";
     cout<<"int: "<<potencia<<endl;
-    cout<< potenc<<endl;
-    cout<< pot<<endl;
+
 
 
 
   return 0;
 }
+
