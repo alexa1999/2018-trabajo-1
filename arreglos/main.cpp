@@ -58,10 +58,27 @@ void strcpy(char s[],char t[])
 
 }
 //laconcatenacion de loselementos de t hacia a
+void conc(char s[],char t[])
+{
+    int a;
+    for(int i=0;t[i]!='\0';i++)
+    {
+        a=tamano(s);
+
+        s[a]+=t[i];
+    }
+
+}
+
 
 
 int main()
 {
     int a[7] = {1, 2, 3, 4, 5, 6, 7};
-    cout<<invertir(a,7,0);
+    char s[20]="anel";
+    char t[]="ersa";
+    conc(s,t);
+    cout<<s;
+    //cout<<invertir(a,7,0);
 }
+
