@@ -63,7 +63,7 @@ int num(char n[])
 
 }
 
-void substri(string s[],string t[],int a,int b)
+void substri(char s[],char t[],int a,int b)
 {
 
     for(int i=a;i>=b;i--)
@@ -84,8 +84,8 @@ int main()
 {
 //    char n[10]="12,36e-1";
 //    cout<<num(n);
-    string s[9]="aneltiene";
-    string t[5]="tiene";
+    char s[9]="aneltiene";
+    char t[5]="tiene";
     substri(s,t,8,4);
 
 
