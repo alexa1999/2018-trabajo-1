@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1446667744 source:d:\anel\arreglo\main.cpp
+	<iostream>
+
+1526954479 source:d:\anel\arreglo\src\arreglo.cpp
+	"Arreglo.h"
+	<iostream>
+
+1526954504 d:\anel\arreglo\include\arreglo.h
+
