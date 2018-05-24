@@ -22,6 +22,6 @@ int main()
 
 
 //    cout<<endl;
-//    lista.vaciar();
+//    a.vaciar();
     return 0;
 }
