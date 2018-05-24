@@ -4,16 +4,28 @@
 
 class Arreglo
 {
-    public:
-        int *lista;
+
         int tam;
+        int *data;
+    public:
         void rellenar();
         int imprimir();
 
-        void insertar(int x);
+        void insertarAtras(int);
+        void insertar(int,int);
         void eliminar(int y);
         void vaciar();
-        Arreglo(int);
+        void menor();
+        void mayor();
+        void promedio();
+        void ascendente();
+        void descendiente();
+        void siPrimo(int);
+        void ePrimos();
+        void menorPrimo();
+        void mayorPrimo();
+        Arreglo(int tam,int arr[]);
+        ~Arreglo();
 
 };
 
