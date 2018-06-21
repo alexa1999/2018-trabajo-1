@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1529558300 source:d:\anel\pila\main.cpp
+	<iostream>
+	<vector>
+	<stdio.h>
+	<stdexcept>
+	<map>
+
