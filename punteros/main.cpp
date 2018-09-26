@@ -52,26 +52,36 @@ bool isBisiesto(int *anho)
 //}
 int main()
 {
-    int a=5;
-    int b=10;
-    int x= 2014;
-    swap_(a,b);
-    swapByPtr(&a,&b);
-    cout<<a<<" "<<b<<endl;
-    cout<<isBisiesto(&x);
+//    int a=5;
+//    int b=10;
+//    int x= 2014;
+//    swap_(a,b);
+//    swapByPtr(&a,&b);
+//    cout<<a<<" "<<b<<endl;
+//    cout<<isBisiesto(&x);
     ////jugar
-    int x=10;
-    int &y=x;
-    int *ptr=&x;
-    y++;
-    *ptr=30;
-    cout<< x<<endl; //imprime 30
-    int x=10;
-    int &y=x;
-    int *ptr=&x;
-    y++;
-    *ptr +=30;
-    cout<< x<<endl; //imprime
-
-    return 0;
+//    int x=10;
+//    int &y=x;
+//    int *ptr=&x;
+//    y++;
+//    *ptr=30;
+//    cout<< x<<endl; //imprime 30
+//    //
+//    int x=10;
+//    int &y=x; // es una referencia,un alias , si uso y enrealidad uso x
+//    int *ptr=&x;
+//    y++;
+//    *ptr +=30;
+//    cout<< x<<endl; //imprime 41
+//    ////
+//    int x=10;
+//    int &y=x;
+//    int *ptr=&x;
+//    y++;
+//    x++;
+//    *ptr +=30;
+//    cout<< x<<endl; //imprime 42
+//    //
+//    //imprime la direccion de memoria de x y contenido cout<<ptr<< *ptr
+//    return 0;
 }
